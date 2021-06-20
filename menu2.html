@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="style/style6.css">
+<style type="text/css">
+@font-face {
+ font-family: light; /* Имя шрифта */
+ src: url(fonts/light.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+ font-family: regular; /* Имя шрифта */
+ src: url(fonts/regular.ttf); /* Путь к файлу со шрифтом */
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.right, .left').click(function(){
+    $('.img_menu').toggleClass('none');
+      $('.img_menu2').toggleClass('block');
+      $('.text_menu').toggleClass('none');
+        $('.text_menu2').toggleClass('block');
+          $('.p_menu2').toggleClass('block');
+          $('.buy_menu4').toggleClass('block');
+          $('.buy_menu').toggleClass('none');
+  });
+  $('.buy_menu').click(function(){
+    $('.buy-menu').addClass('er');
+    $('.buy_menu').addClass('er');
+    $('.buy_menu4').html('КУПЛЕНО');
+  });
+  $('.buy_menu2').click(function(){
+    $('.buy-menu2').addClass('er');
+    $('.buy_menu2').addClass('er');
+      $('.buy_menu2').html('КУПЛЕНО');
+  });
+  $('.buy_menu3').click(function(){
+    $('.buy-menu3').addClass('er');
+    $('.buy_menu3').addClass('er');
+      $('.buy_menu3').html('КУПЛЕНО');
+  });
+  $('.buy_menu4').click(function(){
+    $('.buy-menu4').addClass('er');
+    $('.buy_menu4').addClass('er');
+      $('.buy_menu4').html('КУПЛЕНО');
+  });
+  $('.header_mobile').click(function(){
+    $('.menu_mobile').toggleClass('grid');
+    $('.header_mobile_img').toggleClass('none');
+    $('.header_mobile_img2').toggleClass('block');
+  });
+});
+</script>
+  </head>
+  <body>
+    <header>
+      <div class="box_1">
+        <a href="index.html"><span>ГЛАВНАЯ</span></a>
+        <a href="menu2.html"><span class="opacity">МЕНЮ</span></a>
+        <a href="levels.html"><span >ПРОСТРАНСТВО</span></a>
+        <a href="events.html"><span>СОБЫТИЯ</span></a>
+        <a href="shop.html"><span>МАГАЗИН</span></a>
+        <a href="contacts.html"><span>КОНТАКТЫ</span></a>
+      </div>
+    </header>
+    <div class="headerr">
+    <div class="header_mobile">
+      <img src="img/header.png" class="header_mobile_img"alt="">
+      <img src="img/x2.png" class="header_mobile_img2"alt="">
+    </div>
+    <div class="menu_mobile">
+      <a href="index.html" class="padding"><span class="menu_links">ГЛАВНАЯ</span></a>
+      <a href="menu2.html" class="padding"><span class="menu_links">МЕНЮ</span></a>
+      <a href="levels.html" class="padding"><span class="menu_links" >ПРОСТРАНСТВО</span></a>
+      <a href="events.html" class="padding"><span class="menu_links">СОБЫТИЯ</span></a>
+      <a href="shop.html" class="padding"><span class="menu_links">МАГАЗИН</span></a>
+      <a href="contacts.html" class="padding"><span class="menu_links">КОНТАКТЫ</span></a>
+    </div>
+      </div>
+    <div class="slider">
+      <img src="img/arrowright.svg" class="left"alt="">
+  <div class="item_menu">
+    <div class="img_menu">  <img src="img/b1.png" class="img_menu" alt="">  </div>
+    <div class="img_menu2">  <img src="img/b4.png" class="img_menu2" alt="">  </div>
+<div class="text_menu">
+  <p class="p_menu"> АГОРАФОБИЯ</p>
+<p class="p_menu"> страх и беспокойство при нахождении среди толпы.</p>
+</div>
+<div class="text_menu2">
+  <p class="p_menu2"> АУТОФОБИЯ</p>
+<p class="p_menu2">патологическая боязнь одиночества.
+</p>
+</div>    <div class="buy_menu">  КУПИТЬ  </div>
+<div class="buy_menu4">  КУПИТЬ  </div>
+  </div>
+  <div class="item_menu">
+    <div class="img_menu">  <img src="img/b2.png" class="img_menu" alt="">  </div>
+    <div class="img_menu2">  <img src="img/b5.png" class="img_menu2" alt="">  </div>
+<div class="text_menu">
+  <p class="p_menu"> ТРИПОФОБИЯ</p>
+<p class="p_menu"> страх отверстий и&nbspнеестественных дырок.</p>
+</div>
+<div class="text_menu2">
+  <p class="p_menu2"> ХАРПАКСОФОБИЯ</p>
+<p class="p_menu2"> боязнь разбойников, страх быть убитым.</p>
+</div>    <div class="buy_menu2">  КУПИТЬ  </div>
+  </div>
+  <div class="item_menu second">
+    <div class="img_menu">  <img src="img/b6.png" class="img_menu" alt="">  </div>
+    <div class="img_menu2">  <img src="img/b3.png" class="img_menu2" alt="">  </div>
+<div class="text_menu">
+  <p class="p_menu"> НИКТОФОБИЯ</p>
+<p class="p_menu"> боязнь темноты, ночи.</p>
+</div>
+<div class="text_menu2">
+  <p class="p_menu2"> ГИДРОФОБИЯ</p>
+<p class="p_menu2">боязнь утонуть, страх перед купанием, вхождением в воду, плаванием.</p>
+</div>    <div class="buy_menu3">  КУПИТЬ  </div>
+  </div>
+  <img src="img/arrowright.svg" class="right" alt="">
+    </div>
+    <div class="phone_menu">
+  <div class="item_phone">
+<div class="img">
+<img src="img/b1.png" class="img_phone" alt="">
+<div class="text_phone">
+  <p class="p_phone">АГОРАФОБИЯ</p>
+  <p class="p_phone">страх наблюдения и преследования.</p>
+</div>
+
+<div class="button_menu"> КУПИТЬ </div>
+</div>
+  </div>
+  <div class="item_phone">
+<div class="img">
+<img src="img/b2.png" class="img_phone" alt="">
+<div class="text_phone">
+  <p class="p_phone">АГОРАФОБИЯ</p>
+  <p class="p_phone">страх наблюдения и преследования.</p>
+</div><div class="button_menu"> КУПИТЬ </div>
+</div>
+  </div>
+  <div class="item_phone">
+<div class="img">
+<img src="img/b3.png" class="img_phone" alt="">
+<div class="text_phone">
+  <p class="p_phone">АГОРАФОБИЯ</p>
+  <p class="p_phone">страх наблюдения и преследования.</p>
+</div><div class="button_menu"> КУПИТЬ </div>
+</div>
+  </div>
+  <div class="item_phone">
+<div class="img">
+<img src="img/b4.png" class="img_phone" alt="">
+<div class="text_phone">
+  <p class="p_phone">АГОРАФОБИЯ</p>
+  <p class="p_phone">страх наблюдения и преследования.</p>
+</div><div class="button_menu"> КУПИТЬ </div>
+</div>
+  </div>
+  <div class="item_phone">
+<div class="img">
+<img src="img/b5.png" class="img_phone" alt="">
+<div class="text_phone">
+  <p class="p_phone">АГОРАФОБИЯ</p>
+  <p class="p_phone">страх наблюдения и преследования.</p>
+</div><div class="button_menu"> КУПИТЬ </div>
+</div>
+  </div>
+    </div>
+    <footer>
+    <div class="footer_detail1">
+     HSE ADC
+    </div>
+    <div class="footer_detail1">
+     2021
+    </div>
+       </footer>
+  </body>
+</html>
