@@ -1,0 +1,257 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+.phone_menu {
+  display: none;
+}
+.box_1 {
+background: black;
+height: auto;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-bottom: 1px solid white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  font-family: "light";
+}
+body {
+  font-family: 'light';
+}
+.headerr {
+  display: none;
+}
+@media (max-width: 800px) {
+  .headerr {
+    display: block !important;
+  }
+    header {
+      display: none !important;
+    }
+    .logo {
+      width: 40px;
+      height: 50px;
+     color: white;
+     font-size: 32px;
+     margin-top: 19px;
+     margin-left: 39px;
+     font-family: "regular";
+    }
+    .box_1 {
+        display: none !important;
+    }
+    .header_mobile {
+      display: flex;
+justify-content: space-between;
+width: 100%;
+    }
+    .menu_mobile {
+      display: none;
+      position: absolute;
+      z-index: 2;
+      background: black;
+      width: 100%;
+    }
+    .menu_links {
+      padding: 15px;
+      font-size: 30px;
+    }
+    .padding {
+      padding: 37px;
+      border-bottom: 1px solid white;
+    }
+    .grid {
+      display: grid;
+    }
+    .none {
+      display: none;
+    }
+    .contacts_text {
+      display: block;
+    }
+    .text_p {
+      color: white;
+      font-size: 23px;
+    }
+    .block {
+      display: block !important;
+    }
+    .header_mobile_img {
+      width: 60px;
+      border-radius: 0;
+      height: 40px;
+      padding: 15px;
+
+    }
+    .header_mobile_img2 {
+      width: 60px;
+      border-radius: 0;
+      height: 40px;
+      padding: 15px;
+      display: none;
+      object-fit: contain;
+    }
+}
+span {
+  transition: opacity .2s;
+}
+span:hover {
+  opacity: 0.6;
+  transition: opacity .2s;
+}
+.opacity {
+  opacity: .5;
+}
+.blocks {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+.block_left {
+  width: 50%;
+  height: 76vh;
+}
+.block_right {
+  width: 50%;
+  height: 76vh;
+}
+.p_block {
+  font-size: 48px;
+  color: white;
+  font-family: 'regular';
+  padding-left: 43px;
+}
+.p_block_21 {
+  font-size: 23px;
+  color: white;
+  margin-top: -10px;
+  padding-left: 43px;
+}
+.contacts_form {
+  width: 555px;
+  height: 200px;
+  resize: none;
+  background: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 21px;
+  font-family: 'light';
+  padding: 10px;
+  margin-left: 43px;
+  margin-top: -4px;
+}
+.left_2 {
+  margin-left: 40px;
+  position: relative;
+  bottom: 0;
+  margin-top: 100px;
+  right: 0;
+}
+.button {
+  border: 1px solid white;
+  font-size: 21px;
+  color: white;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  margin-left: 43px;
+  border-radius: 5px;
+}
+.white {
+  color: black;
+  background: white;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+.icons_box {
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+.icons {
+  width: 56px;
+  margin: 30px;
+  height: 56px;
+}
+.text_p {
+  color: white;
+  font-size: 23px;
+  margin: 20px;
+}
+.contacts_text {
+  margin-right: 40px;
+}
+@media (max-width: 1200px) {
+  .contacts_form {
+      width: 400px;
+    }
+    .p_block {
+        font-size: 37px;
+      }
+}
+@media (max-width: 860px) {
+  .blocks {
+    display: block;
+  }
+  .block_left {
+    height: auto;
+  }
+  .block_right {
+    height: auto;
+  }
+}
+@media (max-width: 650px) {
+footer {
+  display: grid;
+}
+.contacts_form {
+  width: 77% !important;
+}
+.block_left {
+  width: auto;
+}
+.block_right {
+  width: auto;
+  text-align: center;
+}
+.p_block {
+    font-size: 27px;
+}
+.button {
+    margin: 0 auto !important;
+  }
+  .pad {
+    padding: 0;
+  }
+  .icons_box {
+    margin: 0 auto!important;
+   width: 100% !important;
+   align-items: center;
+  }
+  footer {
+    display: flow-root;
+}
+.contacts_text {
+  text-align: center;
+padding: 0;
+margin: 0 auto;
+}
+
+}
